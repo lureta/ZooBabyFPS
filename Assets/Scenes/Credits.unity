@@ -340,13 +340,19 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Akaash Patel
+  m_text: 'Hope You Enjoyed!!
+
+
+
+
+    Akaash Patel
 
     Lily Ureta
 
     Juliana Nguyen
 
-    Yoonsuh nam
+    Yoonsuh
+    nam
 
 
     Unity
@@ -731,8 +737,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -188, y: -32.939}
-  m_SizeDelta: {x: 288.3, y: 252.1673}
+  m_AnchoredPosition: {x: -184.95007, y: -146.69678}
+  m_SizeDelta: {x: 294.3998, y: 479.6829}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1563328912
 MonoBehaviour:
@@ -754,18 +760,24 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Game Developers
+  m_text: 'Thank You for Playing our Game
+
+
+
+
+    Game Developers
 
 
 
 
 
-    Created In
+    Created
+    In
 
 
 
 
-    Thank You For Playing'
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -828,7 +840,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -172.5726, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
