@@ -710,8 +710,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff153dd6d6138d44dbf6face2573bbb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  source: {fileID: 0}
+  clip: {fileID: 0}
   health: 0
-  maxHealth: 3
+  maxHealth: 5
 --- !u!195 &8777908231410361763
 NavMeshAgent:
   m_ObjectHideFlags: 0
