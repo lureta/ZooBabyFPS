@@ -21061,6 +21061,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3627015493084239299, guid: 7f67129e61a641c4e94ad29fa8833390, type: 3}
+      propertyPath: maxHealth
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3825419514144919146, guid: 7f67129e61a641c4e94ad29fa8833390, type: 3}
       propertyPath: m_Name
       value: LizardWCode (3)
@@ -24767,7 +24771,7 @@ MonoBehaviour:
   source: {fileID: 0}
   clip: {fileID: 0}
   health: 0
-  maxHealth: 3
+  maxHealth: 10
 --- !u!1001 &673696644
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37603,7 +37607,7 @@ MonoBehaviour:
   source: {fileID: 0}
   clip: {fileID: 0}
   health: 0
-  maxHealth: 3
+  maxHealth: 8
 --- !u!1001 &1014660694
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47500,7 +47504,7 @@ MonoBehaviour:
   source: {fileID: 0}
   clip: {fileID: 0}
   health: 0
-  maxHealth: 3
+  maxHealth: 10
 --- !u!1 &1286196146
 GameObject:
   m_ObjectHideFlags: 0
