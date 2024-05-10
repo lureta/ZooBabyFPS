@@ -21070,6 +21070,10 @@ PrefabInstance:
       value: LizardWCode (3)
       objectReference: {fileID: 0}
     - target: {fileID: 4457765544567452082, guid: 7f67129e61a641c4e94ad29fa8833390, type: 3}
+      propertyPath: m_Speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4457765544567452082, guid: 7f67129e61a641c4e94ad29fa8833390, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
@@ -21131,7 +21135,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7739853744087620158, guid: 7f67129e61a641c4e94ad29fa8833390, type: 3}
       propertyPath: range
-      value: 2
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 7739853744087620158, guid: 7f67129e61a641c4e94ad29fa8833390, type: 3}
       propertyPath: m_Enabled
@@ -21139,7 +21143,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7739853744087620158, guid: 7f67129e61a641c4e94ad29fa8833390, type: 3}
       propertyPath: sightRange
-      value: 5
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739853744087620158, guid: 7f67129e61a641c4e94ad29fa8833390, type: 3}
+      propertyPath: attackRange
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24667,9 +24675,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3627015493084239299, guid: 7f67129e61a641c4e94ad29fa8833390, type: 3}
+      propertyPath: maxHealth
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3825419514144919146, guid: 7f67129e61a641c4e94ad29fa8833390, type: 3}
       propertyPath: m_Name
       value: LizardWCode (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4457765544567452082, guid: 7f67129e61a641c4e94ad29fa8833390, type: 3}
+      propertyPath: m_Speed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4457765544567452082, guid: 7f67129e61a641c4e94ad29fa8833390, type: 3}
       propertyPath: m_Enabled
@@ -24731,9 +24747,13 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6578048170012506832, guid: 7f67129e61a641c4e94ad29fa8833390, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 237ae56fdcc564966904af6c89066e4b, type: 2}
     - target: {fileID: 7739853744087620158, guid: 7f67129e61a641c4e94ad29fa8833390, type: 3}
       propertyPath: range
-      value: 2
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 7739853744087620158, guid: 7f67129e61a641c4e94ad29fa8833390, type: 3}
       propertyPath: m_Enabled
@@ -24741,37 +24761,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7739853744087620158, guid: 7f67129e61a641c4e94ad29fa8833390, type: 3}
       propertyPath: sightRange
-      value: 5
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739853744087620158, guid: 7f67129e61a641c4e94ad29fa8833390, type: 3}
+      propertyPath: attackRange
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3825419514144919146, guid: 7f67129e61a641c4e94ad29fa8833390, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 672707728}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f67129e61a641c4e94ad29fa8833390, type: 3}
---- !u!1 &672707727 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3825419514144919146, guid: 7f67129e61a641c4e94ad29fa8833390, type: 3}
-  m_PrefabInstance: {fileID: 672707726}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &672707728
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 672707727}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff153dd6d6138d44dbf6face2573bbb9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  source: {fileID: 0}
-  clip: {fileID: 0}
-  health: 0
-  maxHealth: 10
 --- !u!1001 &673696644
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33006,6 +33006,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8777908231410361763, guid: e8a98f96516902e4384263b5d25a25c6, type: 3}
+      propertyPath: m_Speed
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -33770,8 +33774,8 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 128
-  range: 2
-  sightRange: 5
+  range: 20
+  sightRange: 50
   attackRange: 2
 --- !u!195 &920173658
 NavMeshAgent:
@@ -33783,7 +33787,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 1.1
-  m_Speed: 1.5
+  m_Speed: 3
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -33831,7 +33835,7 @@ MonoBehaviour:
   source: {fileID: 0}
   clip: {fileID: 0}
   health: 0
-  maxHealth: 3
+  maxHealth: 10
 --- !u!4 &923028792 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 403376, guid: cee6ec354385167478bb8354736f38f5, type: 3}
@@ -37546,9 +37550,9 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 128
-  range: 2
-  sightRange: 5
-  attackRange: 2
+  range: 20
+  sightRange: 50
+  attackRange: 20
 --- !u!195 &1013236875
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -37559,7 +37563,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 1.1
-  m_Speed: 1.5
+  m_Speed: 3
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -37607,7 +37611,7 @@ MonoBehaviour:
   source: {fileID: 0}
   clip: {fileID: 0}
   health: 0
-  maxHealth: 8
+  maxHealth: 10
 --- !u!1001 &1014660694
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47443,9 +47447,9 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 128
-  range: 2
-  sightRange: 5
-  attackRange: 2
+  range: 20
+  sightRange: 50
+  attackRange: 20
 --- !u!195 &1285902958
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -47456,7 +47460,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 1.1
-  m_Speed: 1.5
+  m_Speed: 3
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -69340,6 +69344,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LizardWCode 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4457765544567452082, guid: 7f67129e61a641c4e94ad29fa8833390, type: 3}
+      propertyPath: m_Speed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4493834225254192336, guid: 7f67129e61a641c4e94ad29fa8833390, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -69391,6 +69399,18 @@ PrefabInstance:
     - target: {fileID: 4493834225254192336, guid: 7f67129e61a641c4e94ad29fa8833390, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739853744087620158, guid: 7f67129e61a641c4e94ad29fa8833390, type: 3}
+      propertyPath: range
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739853744087620158, guid: 7f67129e61a641c4e94ad29fa8833390, type: 3}
+      propertyPath: sightRange
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739853744087620158, guid: 7f67129e61a641c4e94ad29fa8833390, type: 3}
+      propertyPath: attackRange
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -74764,7 +74784,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7739853744087620158, guid: 7f67129e61a641c4e94ad29fa8833390, type: 3}
       propertyPath: range
-      value: 2
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 7739853744087620158, guid: 7f67129e61a641c4e94ad29fa8833390, type: 3}
       propertyPath: m_Enabled
@@ -74772,7 +74792,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7739853744087620158, guid: 7f67129e61a641c4e94ad29fa8833390, type: 3}
       propertyPath: sightRange
-      value: 5
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739853744087620158, guid: 7f67129e61a641c4e94ad29fa8833390, type: 3}
+      propertyPath: attackRange
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -79561,6 +79585,18 @@ PrefabInstance:
     - target: {fileID: 4160412703347017410, guid: e8a98f96516902e4384263b5d25a25c6, type: 3}
       propertyPath: maxHealth
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688703663768854709, guid: e8a98f96516902e4384263b5d25a25c6, type: 3}
+      propertyPath: range
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688703663768854709, guid: e8a98f96516902e4384263b5d25a25c6, type: 3}
+      propertyPath: sightRange
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8777908231410361763, guid: e8a98f96516902e4384263b5d25a25c6, type: 3}
+      propertyPath: m_Speed
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
